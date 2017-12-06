@@ -4,6 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/// <summary>
+/// Solved: 
+/// https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem
+/// </summary>
+
 namespace Teste
 {
 
@@ -15,10 +21,9 @@ namespace Teste
 
         static void Main(string[] args)
         {
-          
+
         }
 
-      
         public Node InsertNth(Node head, int data, int position)
         {
             if (head == null)
@@ -60,12 +65,8 @@ namespace Teste
                 prior = head;
                 head = head.Next;
                 positionActual++;
-
             }
             return head;
         }
-
-
-
     }
 }

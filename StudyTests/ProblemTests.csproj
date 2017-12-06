@@ -55,7 +55,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teste\Problems.csproj">
+    <ProjectReference Include="..\Study\Problems.csproj">
       <Project>{3647f4c1-4f40-4f4f-bd20-36d1a565d9ac}</Project>
       <Name>Problems</Name>
     </ProjectReference>
